@@ -36,6 +36,9 @@
       "Discord\\": "src/Discord"
     }
   },
+  "replace": {
+      "team-reflex/discord-php":"*"
+  },
   "suggest": {
     "cache/apc-adapter": "Required to use the APC cache driver",
     "cache/memcache-adapter": "Required to use the Memcache cache driver",
